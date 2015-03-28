@@ -1,5 +1,10 @@
 __author__ = 'ed'
-from random import choice
+import os
+
+from twisted.trial import unittest
+
+from talkback.quote_picker import QuotePicker
+
 
 class TestQuotePicker(unittest.TestCase):
     QUOTE1 = (
